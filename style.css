@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(8, 8, 42);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(15, 15, 70);
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 10px 84px;
+  }
+  nav ul li a:hover {
+    color: rgb(127, 117, 40);
+    font-size: 10 rem;
+  }
+
+  .left {
+    font-size: 1.5rem;
+  }
+
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  .firstSection > div {
+    width: 30%;
+  }
+  .leftSection .buttons{
+    padding: 23px 0;
+  }
+  .leftSection {
+    font-size: 2rem;
+    margin: 50px 0;
+  }
+
+  .leftSection .btn{
+    padding: 12px;
+    background-color: #08082a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .rightSection img {
+    width: 80%;
+    size: 10%;
+  }
+  .purple {
+    color: rgb(162, 88, 231);
+  }
+  #element {
+    color: rgb(122, 122, 191);
+  }
+  .secondSection {
+    max-width: 80vw;
+    margin: auto;
+    font-size: smaller;
+    font-style: italic;
+    height: 80vh;
+  }
+  .secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+  }
+  .text-gray {
+    color: gray;
+  }
+  .secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .image-top {
+    width: 50px;
+
+    position: relative;
+    top: -62px;
+    left: -23px;
+  }
+  .vertical-title {
+    position: relative;
+    width: 150px;
+    top: 20px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 32px;
+    color: gray;
+    width: 150px;
+    font-size: 13px;
+  }
+  .secondSection h1 {
+    font-size: 1.5rem;
+    color: rgb(188, 222, 249);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  footer{
+    background-color: #000018;
+  }
+  .footer {
+    display: flex;
+
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  .footer >div{
+    width: 223px
+  }
+  footer .footer-rights{
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+  }
